@@ -9,12 +9,12 @@ idea.module {
 subprojects {
     plugins.withId("com.android.base") {
         android {
-            compileSdk = 36
-            buildToolsVersion = "36.0.0"
-            ndkVersion = "29.0.13113456"
+            compileSdk '37.1'
+            buildToolsVersion '37.0.0'
+            ndkVersion '30.0.16138531 rc3'
             defaultConfig {
-                minSdk = 24
-                targetSdk = 36
+                minSdk 24
+                targetSdk 37
             }
             compileOptions {
                 sourceCompatibility = JavaVersion.VERSION_21
