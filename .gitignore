@@ -9,5 +9,6 @@
 .externalNativeBuild
 /.idea
 /manager/signing.properties
+/manager/release
 /out
 /signing.properties
